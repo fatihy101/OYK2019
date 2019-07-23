@@ -3,7 +3,7 @@
 </head>
 
 
-<body>
+<body style="background-color:grey">
 
 <h1 class= "BEYAZ">AÇ ADAM</h1>
 
