@@ -6,8 +6,13 @@ $sozler = array("Bir elin nesi var",
                 "Saman altından su yürütmek",
                  "Sora sora bağdat bulunur");
 
-$sozNo =rand(0,3);
-echo $sozler[$sozNo];
+echo "<pre>";
+for($i=1; $i<=10; $i++) {
+  $SozNo = rand(0, 3);
+  echo $sozler[ $SozNo ] . "\n";
+}
+echo "</pre>";
+
 
 
  ?>
