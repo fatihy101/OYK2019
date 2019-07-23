@@ -5,7 +5,7 @@
 
 <body>
 
-<h1>Aç Adam</h1>
+<h1 class= "BEYAZ">AÇ ADAM</h1>
 
 
 <div>
@@ -23,7 +23,7 @@
 <input type="password" name="parola" value="">
 
 
-<h3>Adres Bilgisi</h3>
+<h3 class="BEYAZ">Adres Bilgisi</h3>
 <p>İl:</p>
 <select name= "il">
   <option value="İl1"></option>
@@ -61,8 +61,20 @@
 </div>
 
 <style>
-body{ margin-left:40em;margin-bottom:150px;margin-top:100px}
-
+body{ margin-left:45em;
+  margin-bottom:150px;
+  margin-top:100p;
+background-repeat: repeat-y;
+background-image: url("background.jpg");
+}
+p{
+  color: white;
+  font-weight: bold;
+}
+.BEYAZ
+{
+color:white;
+}
 
 
 </style>
