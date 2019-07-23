@@ -1,5 +1,5 @@
 <head>
-
+<title>Kayıt Ol</title>
 </head>
 
 
