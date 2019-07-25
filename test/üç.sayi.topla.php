@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php if (!isset($_GET["sayi1"])) {  ?>
-'iki.sayi.topla.php'
+<?php
+
+if (!isset($_GET["sayi1"])) {  ?>
+
 
 
  <h2>Üç Sayi Toplamı</h2>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php if (!isset($_GET["sayi1"])) {  ?>
-'iki.sayi.topla.php'
+<?php if (!isset($_POST["sayi1"])) {  ?>
+
 
 
  <h2>İki Sayi Toplamı</h2>
 
-<form method="get">
+<form method="post">
   1. sayıyı giriniz:
   <input type="text" name="sayi1" placeholder="Sayı giriniz">
   <br><br>
@@ -23,9 +23,9 @@
 <?php } ?>
 
 <?php
-if (isset($_GET["sayi1"])) {
-  $a=$_GET["sayi1"];
-  $b=$_GET["sayi2"];
+if (isset($_POST["sayi1"])) {
+  $a=$_POST["sayi1"];
+  $b=$_POST["sayi2"];
   $sonuc =$a+$b;
   echo "<h3>Sonuç:</h3> $sonuc ";
   echo "<br /><a href='?'>Yeni İşlem...</a>";
