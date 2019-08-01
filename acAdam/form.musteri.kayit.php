@@ -11,29 +11,29 @@
 <div>
 
 <forms>
-<p>Adınız: </p>
-<input type="text" name="ad" value="">
-<p>Soyadınız:</p>
-<input type="text" name="soyad" value="">
-<p>Telefon numarası:</p>
-<input type="tel" name="telno" value="">
-<p>E-posta:</p>
-<input type="email" name="eposta" value="">
-<p>Parola:</p>
-<input type="password" name="parola" value="">
+    <p>Adınız: </p>
+      <input type="text" name="ad" value="">
+    <p>Soyadınız:</p>
+      <input type="text" name="soyad" value="">
+    <p>Telefon numarası:</p>
+      <input type="tel" name="telno" value="">
+    <p>E-posta:</p>
+      <input type="email" name="eposta" value="">
+    <p>Parola:</p>
+      <input type="password" name="parola" value="">
 
 
 <h3 class="BEYAZ">Adres Bilgisi</h3>
 <p>İl:</p>
 <select name= "il">
-  <option value="İl1"></option>
-  <option value="İl2"></option>
+  <option value="İl1">İl1</option>
+  <option value="İl2">İl2</option>
 </select>
 <p>İlçe</p>
 <select name="ilçe">
-  <option value="İlçe1"></option>
+  <option value="İlçe1">İlçe1</option>
   <p>İlçe:</p>
-  <option value="İlçe2"></option>
+  <option value="İlçe2">ilçe2</option>
   <option value="ilçe3"></option>
 </select>
 <p>Mahalle:</p>
